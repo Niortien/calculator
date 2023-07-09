@@ -1,0 +1,189 @@
+
+
+*{
+    margin: Opx;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.container{
+    height: 105vh;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(222, 26%, 31%);
+}
+.high_box{
+    width: 40%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.middle_box{
+    width: 40%;
+    color: white;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: end;
+    border-radius: 5px;
+    padding: 10px 10px;
+    background-color: hsl(224, 36%, 15%);
+    
+
+}
+.middle_box div{
+    font-size: 1.5rem;
+}
+
+.bottom_box{
+    width: 40%;
+    background-color: hsl(223, 36%, 21%);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    flex-direction: column;
+    border-radius: 5px;
+
+    
+}
+.haut{
+    display: flex;
+    justify-content: space-between;
+
+}
+.right{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    
+}
+.left{
+    
+    
+    font-size: 1.5rem;
+    padding: 5px 5px;
+    margin-top: 60px;
+    display: flex   ;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    
+
+}
+.box{
+    width: 90%;
+
+    
+    height: 25px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: hsl(223, 31%, 20%);
+    
+}
+.circle{
+    width: 15%;
+    border-radius: 10px;
+    height: 70%;
+    
+    background-color:  hsl(6, 63%, 50%);
+    padding: 8px 8px;
+    
+    
+}
+.balance{
+
+    width: 50%;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.number{
+    width: 80%;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.theme{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-top: 70px;
+    color: white;
+
+}
+.colum{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    
+    align-items: center;
+    width: 22%;
+    
+}
+.one{
+    
+    padding: 10px 10px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: white;
+    color: hsl(223, 31%, 20%);
+    
+}
+.bas{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+    height: 40%;
+    text-align: center;
+    
+}
+.droite{
+    width: 46%;
+    
+    text-align: center;
+    border-radius: 5Px;
+    height: 100% ;
+    color: white;
+    background-color:hsl(6, 63%, 50%);
+}
+.DEL{
+    background-color: hsl(221, 30%, 46%);
+    color: white;
+}
+
+.gauche{
+    width: 46%;
+    
+    text-align: center;
+    border-radius: 5Px;
+    color: white;
+    height: 100% ;
+    background-color:hsl(221, 30%, 46%);
+    
+}
+
+    
+
+
+
